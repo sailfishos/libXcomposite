@@ -1,3 +1,6 @@
+* Tue Dec 13 2011 Marko Saukko <marko.saukko@cybercom.com> - 0.4.3
+- Update libXcomposite to version 0.4.3.
+
 * Thu Jun 24 2010 Li Peng <peng.li@intel.com> - 0.4.1
 - Add %doc for man pages
 

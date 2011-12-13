@@ -1,13 +1,14 @@
 Name: libXcomposite
 Summary: X.Org X11 libXcomposite runtime library
-Version: 0.4.1
+Version: 0.4.3
 Release: 0
 Group: System/Libraries
 License: MIT/X11
 URL: http://www.x.org
 Sources:
     - http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{version}.tar.bz2
-
+Description: |
+  %{summary}.
 PkgConfigBR:
     - compositeproto
     - x11
@@ -20,3 +21,5 @@ SubPackages:
       Group: System/Libraries
       Requires:
           - xorg-x11-filesystem
+      Description: |
+        %{summary}.
